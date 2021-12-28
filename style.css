@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.back-container
+{
+    position: relative;
+}
+.front-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.back-top
+{
+    background-color: #009688;
+    height: 15vh;
+}
+.back-main
+{
+    background-color:#D9DBD5;
+    height: 85vh;
+}
+.col-4
+{
+    height: 100%;
+}
+.chat-top
+{
+    background-color: #ededed;
+    min-height: 50px;
+}
+.front-container1
+{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+.profile-image
+{
+    margin-top: 7px;
+}
+.float-right
+{
+    float: right;
+}
+.contacts
+{
+    background-color: #ffffff;
+    min-height: 600px;
+}
+.contact-table-scroll
+{
+    overflow-y:scroll;
+    height: 600px;
+}
+.message-area
+{
+    background-color: #e4e1de;
+    height: 600px;
+}
+/* .sm-1
+{
+    background-color:#12D6BA;
+    padding: 2px;
+    margin-top: 2px;
+    margin-right:5px;
+    float: left;
+    color: white;
+    
+} */
+.message-table-scroll
+{
+    overflow-y:scroll;
+    height:600px;
+}
+.message-box
+{
+    background-color:  #F0F0F0;
+}
