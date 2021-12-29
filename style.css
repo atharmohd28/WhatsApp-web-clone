@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+p{
+    margin: 0;
+}
+.back-container
+{
+    position: relative;
+}
+.front-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.back-top
+{
+    background-color: #009688;
+    height: 15vh;
+}
+.back-main
+{
+    background-color:#D9DBD5;
+    height: 85vh;
+}
+.col-4
+{
+    height: 100%;
+}
+.chat-top
+{
+    background-color: #ededed;
+    min-height: 50px;
+}
+.front-container1
+{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+.profile-image
+{
+    margin-top: 7px;
+}
+.float-right
+{
+    float: right;
+}
+
+.contacts
+{
+    background-color: #ffffff;
+    min-height: 600px;
+}
+.contact-table-scroll
+{
+    overflow-y:scroll;
+    height: 600px;
+}
+.message-area
+{
+    background-color: #e4e1de;
+    /* height: 600px; */
+}
+
+.table-hover tr td:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.message-table-scroll
+{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y:scroll; */
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* my code */
+.message-area {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    /* border: 1px solid #000; */
+}
+
+.messageArea {
+    /* border: 1px solid red; */
+    flex: 1;
+    overflow-y: scroll;
+}
+.singleMessageContainer {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 3px 0;
+}
+.singleMessage {
+
+    /* padding: 3px; */
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    max-width: 45%;
+    /* border: 1px solid green; */
+    
+}
+.singleMessage>p:nth-child(1){
+    word-break: break-all;
+}
+
+
+.singleMessage.rightMessage {
+    margin-left: auto;
+    margin-right:10px ;
+}
+.messageInput {
+    /* border: 1px solid red; */
+}
+
+
